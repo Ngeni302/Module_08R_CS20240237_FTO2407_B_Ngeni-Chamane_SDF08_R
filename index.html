@@ -7,46 +7,52 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg-white my-20 md:bg-black ">
     <footer class="bg-[#659f8f] dark:bg-[#313131]">
-        <div class="container">
-            <footer class="bg-[#659f8f] dark:bg-[#313131]">
-                <div class="container px-6 py-12 mx-auto">
-                    <div class="grid">
+        <div class="container m-auto text-xs">
+            <footer class="bg-[#659f8f] dark:bg-[#313131] ">
+                <div class="container px-6 py-12 mx-auto mt-auto">
+                    <div class="columns flex space-x-10 pr-50 mt-5 mb-5">
                         <div class="sm:col-span-2">
-                            <h1 class="max-w-lg" >Subscribe.</h1>
-                            <div class="flex">
-                                <input id="email" type="text">
-                                <button class="w-full px-6 py-2.5 bg-white">
+                            <h1 class="max-w-lg pb-2 text-base" ><strong>Subscribe to our newsletter for updates.</strong></h1>
+                            <div class="flex space-x-2 ">
+                                <button class="w-40 py-1 bg-slate-50 text-slate-300 rounded-md text-left pl-2 text-sm"type="text">Email Address</button> 
+                                <button class="w-24 py-1 bg-red-600 rounded-md text-sm text-white"> 
                                     Subscribe
                                 </button>
                             </div>
                         </div>
-                        <div>
-                            <p class="text-[#313131]">Quick Link</p>
-                            <div class="flex">
-                                <a href="#">Home</a>
-                                <a href="#">Who We Are</a>
-                                <a href="#">Our Philosophy</a>
+                        <div class=" column pl-40 ">
+                            <p class="text-[#313131] pb-3 font-bold">Quick Link</p>
+                            <div class="flex-col space-y-2 md:grid-col-2">
+                                <p><a href="#">Home</a></p>
+                                <p><a href="#">Who We Are</a></p>
+                                <p><a href="#">Our Philosophy</a></p>
                             </div>
                         </div>
-                        <div>
-                            <p class="text-[#313131]">Technologies</p>
-                            <div class="">
-                                <a href="#">HTML</a>
-                                <a href="#">CSS</a>
-                                <a href="#">JavaScript</a>
+                        <div class="column pl-40">
+                            <p class="text-[#313131] pb-3 font-bold">Technologies</p>
+                            <div class="flex-col space-y-2">
+                                <p><a href="#">HTML</a></p>
+                                <p><a href="#">CSS</a></p>
+                                <p><a href="#">JavaScript</a></p>
                             </div>
                         </div>
                     </div>
                     
                     <hr class="my-6 border-[#d86943]">
                     
-                    <div class="flex">
+                    <div class="flex ">
                         <a href="#">
-                            <img class="w-auto h-7" src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="">
+                            <img class="w-auto h-5" src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="">
                         </a>
+                    <div class="flex pl-10 space-x-1">
+                        <a href="http://instagram.com/codespaceza"><img class="h-5" src="ig.svg"></a>
+                        <a href="https://www.facebook.com/codespaceza"><img class="h-5" src="facebook.svg"></a>
+                        <a href="https://www.youtube.com/channel/UCfmXJliguiwBv2QlRzWdrxA"><img class="h-5" src="youtube.svg"></a>
+                        <a href="https://www.linkedin.com/school/codespaceza/"><img class="h-5" src="linkedin.svg"></a>
                     </div>
+                 
     </footer>
 
 </body>
